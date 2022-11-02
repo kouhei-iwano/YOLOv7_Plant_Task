@@ -1,0 +1,25 @@
+train: 
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Pow.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Ant.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Dow.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Cor.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Gum.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Bac.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_CCYV.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Mos.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_MYSV.txt
+val: 
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Pow.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Ant.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Dow.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Cor.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Gum.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Bac.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_CCYV.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_Mos.txt
+  - /home/celery/Workspace/Two_stage_Diagnosis/data_path/cucumber/Cucumber_yolov5/cucumber_train_original_MYSV.txt
+
+nc: 9
+
+names: ['01_Powdery_Mildew', '03_Anthracnose','08_Downy_Mildew', '09_Corynespora_Leaf_Spot', '17_Gummy_Stem_Blight',
+'20_Bacterial_Spot','22_CCYV','23_Mosaic_diseases','24_MYSV']

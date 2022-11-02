@@ -1,0 +1,15 @@
+# changing name a bit. cucumber_9class_pre means preliminary (before fine-tuning with hard-sample)
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+# Removed Bacterial Spot and Gummy Stem Blight
+train:
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/cucumber_Train_Release/cucumber_train_original_no_BS_Gummy.txt
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/cucumber_Train_Release/hardSample/Healthy/yolov7/Healthy_train_original_hard_full_no_BS_Gummy_yolov7.txt
+val: 
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/cucumber_Train_Release/cucumber_val_original_no_BS_Gummy.txt
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/cucumber_Train_Release/hardSample/Healthy/yolov7/Healthy_val_original_no_BS_Gummy_yolov7.txt
+
+# number of classes
+nc: 8
+
+# class names
+names: ['CCYV', 'Corynespora Leaf Spot', 'Downy Mildew', 'Gray Mold', 'MYSV', 'Mosaic', 'Powdery Mildew', 'Hard Sample']

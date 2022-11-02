@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train:
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/strawberry_forJournal/strawberry_train_original_for_paper.txt
+val:
+  - /home/quan/WorkSpace/PlantDetection_utils/data_path/strawberry_forJournal/strawberry_val_for_paper.txt
+
+# number of classes
+nc: 3
+
+# class names
+names: ['Anthracnose', 'Fusarium Wilt', 'Powdery Mildew']
