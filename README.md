@@ -146,6 +146,13 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
     </a>
 </div>
 
+On image for cucumber:
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/test_cucumber.JPG" width="59%"/>
+    </a>
+</div>
 
 ## Export
 
